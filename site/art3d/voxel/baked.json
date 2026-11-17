@@ -1,0 +1,383 @@
+{
+  "format": 1,
+  "version": "37837a26e2bc1b24",
+  "sourceVersion": "4d0cce553c455a15",
+  "pack": "meshes.bin",
+  "encoding": "gzip",
+  "bytes": 7043742,
+  "decodedBytes": 63342564,
+  "packSha256": "5af9452264943fc4e44c15f8e50a5814e8a41b75adc430a09557caa3f9ad0b5b",
+  "assets": [
+    {
+      "id": "tree",
+      "size": [
+        68,
+        70,
+        64
+      ]
+    },
+    {
+      "id": "anvil",
+      "size": [
+        22,
+        12,
+        16
+      ]
+    },
+    {
+      "id": "barrel",
+      "size": [
+        14,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "crate",
+      "size": [
+        14,
+        14,
+        12
+      ]
+    },
+    {
+      "id": "ore-copper",
+      "size": [
+        26,
+        28,
+        12
+      ]
+    },
+    {
+      "id": "ore-tin",
+      "size": [
+        26,
+        28,
+        12
+      ]
+    },
+    {
+      "id": "ore-iron",
+      "size": [
+        26,
+        28,
+        12
+      ]
+    },
+    {
+      "id": "ore-coal",
+      "size": [
+        26,
+        28,
+        12
+      ]
+    },
+    {
+      "id": "ore-depleted",
+      "size": [
+        26,
+        28,
+        12
+      ]
+    },
+    {
+      "id": "valley-tent",
+      "size": [
+        48,
+        48,
+        32
+      ]
+    },
+    {
+      "id": "valley-tent-cutaway",
+      "size": [
+        48,
+        48,
+        32
+      ]
+    },
+    {
+      "id": "valley-stool",
+      "size": [
+        10,
+        10,
+        8
+      ]
+    },
+    {
+      "id": "valley-table",
+      "size": [
+        18,
+        32,
+        12
+      ]
+    },
+    {
+      "id": "valley-bed",
+      "size": [
+        20,
+        30,
+        12
+      ]
+    },
+    {
+      "id": "valley-shelf",
+      "size": [
+        24,
+        6,
+        20
+      ]
+    },
+    {
+      "id": "valley-chest",
+      "size": [
+        12,
+        16,
+        8
+      ]
+    },
+    {
+      "id": "valley-planter",
+      "size": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "valley-flowers",
+      "size": [
+        12,
+        12,
+        8
+      ]
+    },
+    {
+      "id": "valley-sapling",
+      "size": [
+        16,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "heartland-birch",
+      "size": [
+        32,
+        32,
+        44
+      ]
+    },
+    {
+      "id": "heartland-pine",
+      "size": [
+        32,
+        32,
+        44
+      ]
+    },
+    {
+      "id": "heartland-home",
+      "size": [
+        132,
+        108,
+        84
+      ]
+    },
+    {
+      "id": "heartland-home-cutaway",
+      "size": [
+        132,
+        108,
+        84
+      ]
+    },
+    {
+      "id": "heartland-home-foundation",
+      "size": [
+        132,
+        108,
+        84
+      ]
+    },
+    {
+      "id": "heartland-home-build",
+      "size": [
+        132,
+        108,
+        84
+      ]
+    },
+    {
+      "id": "heartland-cottage",
+      "size": [
+        104,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-cottage-cutaway",
+      "size": [
+        104,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-cottage-foundation",
+      "size": [
+        104,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-cottage-build",
+      "size": [
+        104,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-shop",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-shop-cutaway",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-shop-foundation",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-shop-build",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-bank",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-bank-cutaway",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-bank-foundation",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-bank-build",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-workshop",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-workshop-cutaway",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-workshop-foundation",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-workshop-build",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-forge",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-forge-cutaway",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-forge-foundation",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "heartland-forge-build",
+      "size": [
+        88,
+        72,
+        84
+      ]
+    },
+    {
+      "id": "supplies",
+      "size": [
+        30,
+        15,
+        18
+      ]
+    }
+  ],
+  "files": [
+    "art3d/voxel/meshes.bin"
+  ]
+}
