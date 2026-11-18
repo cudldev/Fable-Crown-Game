@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>Valley SDF integration preview</title>  <script type="module" crossorigin src="./assets/game-BwuPOj3Z.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/game-BzcaqBG9.css">
+</head><body><div id="root"></div><div hidden><p id="hint"></p><details id="pixel-controls"><summary>Pixel filter</summary>
+<label>Frame-rate cap <select id="frame-cap"><option value="0" selected>Uncapped</option><option value="60">60 FPS</option><option value="30">30 FPS</option><option value="24">24 FPS</option><option value="15">15 FPS</option></select></label>
+<label>Colors per tile <select id="local-palette"><option value="0">Off</option><option value="2">4 colors · 2×2 pixels</option><option value="24">4 colors · 2×4 pixels</option><option value="4" selected>4 colors · 4×4 pixels</option><option value="48">4 colors · 4×8 pixels</option><option value="8">4 colors · 8×8 pixels</option></select></label>
+<label>Colors across screen <select id="tile-global-palette"><optgroup label="Reference palettes"><option value="109" selected>Town · time of day</option><option value="107">Endesga 64 · original</option><option value="108">Endesga 64 · 12-bit (63 colors)</option><option value="106">NES-inspired draft · 52</option><option value="105">NES reference · 55</option><option value="103">Resurrect 64</option><option value="101">DawnBringer 32</option><option value="102">Endesga 32</option><option value="104">PICO-8 · 16</option></optgroup><optgroup label="RGB grids"><option value="16">16 colors</option><option value="32">32 colors</option><option value="64">6-bit RGB · 64 colors</option><option value="256">256 colors</option><option value="512">9-bit RGB · 512 colors</option><option value="4096">12-bit RGB · 4,096 colors</option><option value="32768">15-bit RGB · 32,768 colors</option></optgroup></select></label>
+<label>Palette matching <select id="tile-match"><option value="oklab">Perceptual</option><option value="rgb" selected>Weighted RGB</option></select></label>
+<label>Time palette colors <select id="palette-count"><option value="32">32 colors</option><option value="64" selected>64 colors</option></select></label>
+<label>Time palette blending <select id="palette-blend"><option value="perceptual" selected>Perceptual trial</option><option value="rgb">Original RGB</option></select></label>
+<label>Palette stability <select id="palette-stability"><option value="mild" selected>Mild trial</option><option value="off">Off · nearest</option></select></label>
+<small>Time-of-day palette uses weighted RGB matching; palette blending is selectable.</small>
+<label>Night shadow lift <input type="range" id="tile-night-lift" min="0" max="100" step="5" value="15"><output id="tile-night-lift-value">15%</output></label>
+<label>Use geometric splits <input type="checkbox" id="tile-shapes" checked></label>
+<label>Colors per split <select id="tile-split-colors"><option value="2" selected>2 colors</option><option value="4">4 colors</option></select></label>
+<label>Require splits <input type="checkbox" id="tile-force-splits" checked></label>
+<label>Favor prominent outlines <input type="checkbox" id="tile-favor-outlines" checked></label>
+<label>Dither split edges <input type="checkbox" id="tile-dither" checked></label>
+<label>Tile outline width <select id="tile-outline-width"><option value="1">1 pixel</option><option value="2" selected>2 pixels</option></select></label>
+<small>Tile colors are chosen from the selected screen palette; the dither slider controls split edges.</small>
+<label>Lens distortion <select id="pixel-lens"><option value="off">Off</option><option value="subtle">Subtle</option><option value="strong">Stronger</option></select></label>
+<label>Scene resolution <select id="pixel-size"><option value="1">Off · native</option><option value="720">720p</option><option value="480">480p</option><option value="360">360p</option><option value="240">240p</option><option value="180">180p</option><option value="120">120p</option><option value="90">90p</option></select></label>
+<label>Color mode <select id="pixel-levels"><option value="0">24-bit RGB · full color</option><option value="town256">Town palette · 256 colors</option><option selected value="32">15-bit RGB · 32 / channel</option><option value="16">12-bit RGB · 16 / channel</option><option value="8">9-bit RGB · 8 / channel</option><option value="4">6-bit RGB · 4 / channel</option></select></label>
+<label>Dither <input type="range" id="pixel-dither" min="0" max="100" step="5" value="30"><output id="pixel-amount" for="pixel-dither">30%</output></label>
+<label>Character outlines <input type="checkbox" id="pixel-outlines"></label>
+<label>World outline <input type="range" id="world-outline" min="0" max="65" step="1" value="28"><output id="world-outline-value" for="world-outline">Off</output></label>
+<output id="pixel-resolution"></output></details></div></body></html>
