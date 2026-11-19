@@ -4,7 +4,7 @@ This repository contains the public playable game and the configuration that pub
 
 [Play the live game](https://cudldev.github.io/Fable-Crown-Game/) · [Play the Whispers development preview](https://cudldev.github.io/Fable-Crown-Game/whispers-preview/?demo=developed)
 
-Whispers uses a warmer pixel HUD. A dashed gold line shows Alden’s walking route. Gathering fills a ring over Alden, item gains rise from the resource, and damage numbers rise over the actor who was hit.
+Whispers uses a warmer pixel HUD. Gold dashes trace Alden’s walking route along the ground and blend into a solid line in the distance. Gathering fills a ring over Alden, item gains rise from the resource, and damage numbers rise over the actor who was hit.
 
 In Whispers, open **Wardrobe** to try an outfit. The **Time** menu lets you hold the light at a chosen hour or resume the 20-minute day. [Try an accelerated sunset](https://cudldev.github.io/Fable-Crown-Game/whispers-preview/?demo=developed&hour=17&dayCycle=24).
 
