@@ -1,0 +1,31 @@
+{
+  "name": "Fable Crown · Whispers Terrain Row Test",
+  "short_name": "Whispers Terrain Row Test",
+  "description": "A kingdom grows through its people.",
+  "id": "./",
+  "start_url": "./?demo=developed&autoTest=settle&settleTrace=1&repairStrips=rows&mobile=1&gpuPasses=1&pixel=360&tile=0&dayCycle=0&hour=12&noGI=1&qa=1&qaPoseTime=1250&passHashes=1&terrainSurface=meshFill&terrainRepair=wide&terrainCache=1&distanceReads=rgba",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eee8d8",
+  "theme_color": "#192e39",
+  "icons": [
+    {
+      "src": "crown-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "crown-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "crown.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
