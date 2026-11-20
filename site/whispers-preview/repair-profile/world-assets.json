@@ -1,0 +1,19 @@
+{
+  "version": "28cf7f491ec2",
+  "bytes": 5632171,
+  "files": [
+    "art3d/manifest.json",
+    "art3d/bank.glb",
+    "art3d/forge.glb",
+    "art3d/tree.glb",
+    "art3d/alden.glb",
+    "art3d/anvil.glb",
+    "art3d/crate.glb",
+    "art3d/lantern.glb",
+    "art3d/palette.png",
+    "art3d/voxel/baked.json?v=322dbf85ac6c08d0",
+    "art3d/voxel/meshes.bin?v=322dbf85ac6c08d0",
+    "art3d/terrain/surface.json?v=7a494a7b02fcf20c",
+    "art3d/terrain/surface.bin?v=7a494a7b02fcf20c"
+  ]
+}
