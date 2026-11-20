@@ -1,4 +1,4 @@
-struct GridLighting { sunDay:vec4f, params:vec4f }
+struct GridLighting { sunDay:vec4f, params:vec4f, keyColor:vec4f }
 struct Source { position:vec4f, power:vec4f }
 @group(0) @binding(0) var<uniform> light:GridLighting;
 @group(0) @binding(1) var materials:texture_3d<f32>;
@@ -106,7 +106,8 @@ fn reflectOnce(@builtin(global_invocation_id) global:vec3u,@builtin(workgroup_id
   if(!areaActive(group,reflectionOrder.y,false)){textureStore(bounceOut,cell,vec4f(0));return;}
   if(textureLoad(materials,cell,0).a>0.){textureStore(bounceOut,cell,vec4f(0));return;}
   let pitch=light.params.z;let radius=min(7./pitch,32.);
-  let sunColor=mix(vec3f(1.,.85,.64),vec3f(1.,.53,.28),light.params.x)*max(0.,light.sunDay.w);
+  let sunColor=select(mix(vec3f(1.,.85,.64),vec3f(1.,.53,.28),light.params.x)*max(0.,light.sunDay.w),
+    light.keyColor.xyz,light.keyColor.w>0.);
   var reflected=vec3f(0);
   for(var i=0u;i<14u;i++){
     let hit=trace(cell,normalize(gatherDirs[i]),radius,dims);
