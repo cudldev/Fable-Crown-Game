@@ -17,6 +17,16 @@ const view=PigmentStyle(vec4f(0));
 fn pigmentUV(uv:vec3f,dims:vec3f)->vec3f{return uv;}
 fn pigmentWeight(w:vec3f,strength:f32)->vec3f{return w;}
 
+fn unpackFieldAxes(encoded:f32)->vec3f{
+  let packed=u32(encoded);
+  return vec3f(vec3u(packed&255u,(packed>>8u)&255u,packed>>16u));
+}
+fn fieldSampleCounts(encoded:f32)->vec3f{
+  if(encoded>=0.){return vec3f(encoded);}
+  // Match the signed atlas count in the camera and shadow instance records.
+  return unpackFieldAxes(-encoded);
+}
+
 fn actorSampleWorld(world:vec3f,obj:Item)->vec4f{
   if(obj.origin.w==9.){return rigCombined(world,obj);}
   let d=world-obj.origin.xyz;
@@ -31,7 +41,12 @@ fn actorSampleWorld(world:vec3f,obj:Item)->vec4f{
     return vec4f(posed.x/obj.shape.z,posed.yzw*obj.tint.rgb);
   }
   let uv=(p-obj.atlas.xyz)/(obj.localMax.xyz-obj.atlas.xyz);
-  let location=(uv*(obj.atlas.w-1.)+.5+vec3f(obj.extra.xy,obj.localMax.w))/vec3f(textureDimensions(castFields));
+  let last=fieldSampleCounts(obj.atlas.w)-1.;
+  var texel=uv*last;
+  if(obj.atlas.w<0.&&obj.origin.w==3.&&obj.pose.x>=2.){
+    texel=clamp(uv*(obj.pose.x-1.)-unpackFieldAxes(obj.pose.y),vec3f(0),last);
+  }
+  let location=(texel+.5+vec3f(obj.extra.xy,obj.localMax.w))/vec3f(textureDimensions(castFields));
   let value=textureSampleLevel(castFields,linearSampler,location,0.);
   return vec4f((value.r*2.-1.)*obj.shape.w/obj.shape.z,value.gba*obj.tint.rgb);
 }

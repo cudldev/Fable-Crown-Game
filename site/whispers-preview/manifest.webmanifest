@@ -3,7 +3,7 @@
   "short_name": "Whispers Preview",
   "description": "A kingdom grows through its people.",
   "id": "./",
-  "start_url": "./?demo=developed",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#eee8d8",
