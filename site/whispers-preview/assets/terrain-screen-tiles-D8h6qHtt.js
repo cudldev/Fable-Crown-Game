@@ -1,4 +1,4 @@
-import{_ as we}from"./index-h6yruXEl.js";import{g as be}from"./PrivateValley-DbIGiaDV.js";import"./index-BVQZXRiM.js";import"./ActionCycle-Crn8L2r9.js";import"./three.module-Df_d6poP.js";const pe={srcFactor:"one",dstFactor:"one",operation:"add"},q=[{format:"rgba32float"},{format:"r32uint"}],Re={format:"depth24plus",depthWriteEnabled:!0,depthCompare:"less"},Pe={r:0,g:0,b:0,a:0},$=`
+import{_ as we}from"./index-DS7WGqUd.js";import{g as be}from"./PrivateValley-C39z7s2I.js";import"./index-CcwDLRd4.js";import"./ActionCycle-Dwuj7hat.js";import"./three.module-Df_d6poP.js";const pe={srcFactor:"one",dstFactor:"one",operation:"add"},q=[{format:"rgba32float"},{format:"r32uint"}],Re={format:"depth24plus",depthWriteEnabled:!0,depthCompare:"less"},Pe={r:0,g:0,b:0,a:0},$=`
 @vertex fn ridgeScreen(@builtin(vertex_index) i:u32)->@builtin(position) vec4f{
  let p=array<vec2f,3>(vec2f(-1,-1),vec2f(3,-1),vec2f(-1,3));return vec4f(p[i],0,1);
 }`,Z="@group(2) @binding(0) var tileScore:texture_2d<f32>;",E=Z+`
