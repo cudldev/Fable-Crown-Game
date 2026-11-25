@@ -1,4 +1,4 @@
-import{b5 as we}from"./index-DN5uc0Gv.js";import{d as be}from"./PrivateValley-BKO2dQbS.js";const pe={srcFactor:"one",dstFactor:"one",operation:"add"},q=[{format:"rgba32float"},{format:"r32uint"}],Re={format:"depth24plus",depthWriteEnabled:!0,depthCompare:"less"},Pe={r:0,g:0,b:0,a:0},$=`
+import{b5 as we}from"./index-BH33QArr.js";import{d as be}from"./PrivateValley-BeAOlMjK.js";const pe={srcFactor:"one",dstFactor:"one",operation:"add"},q=[{format:"rgba32float"},{format:"r32uint"}],Re={format:"depth24plus",depthWriteEnabled:!0,depthCompare:"less"},Pe={r:0,g:0,b:0,a:0},$=`
 @vertex fn ridgeScreen(@builtin(vertex_index) i:u32)->@builtin(position) vec4f{
  let p=array<vec2f,3>(vec2f(-1,-1),vec2f(3,-1),vec2f(-1,3));return vec4f(p[i],0,1);
 }`,Z="@group(2) @binding(0) var tileScore:texture_2d<f32>;",E=Z+`

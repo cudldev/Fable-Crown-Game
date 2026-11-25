@@ -1,4 +1,4 @@
-import{b as v,c as y,t as z}from"./PrivateValley-BKO2dQbS.js";import"./index-DN5uc0Gv.js";const G=`  let patchCell=vec2f(tile*15+valleySculptCell(local,d.xz,15.));
+import{b as v,c as y,t as z}from"./PrivateValley-BeAOlMjK.js";import"./index-BH33QArr.js";const G=`  let patchCell=vec2f(tile*15+valleySculptCell(local,d.xz,15.));
   let crossX=min(valleySculptCross(o.x,p.x,d.x,low.x,quarter.x,4.,reference),select(valleySculptCross(o.x,p.x,d.x,low.x,patchCell.x,15.,reference),1e20,flat));
   let crossZ=min(valleySculptCross(o.z,p.z,d.z,low.z,quarter.y,4.,reference),select(valleySculptCross(o.z,p.z,d.z,low.z,patchCell.y,15.,reference),1e20,flat));`,D=`  var crossX=valleySculptCross(o.x,p.x,d.x,low.x,quarter.x,4.,reference);
   var crossZ=valleySculptCross(o.z,p.z,d.z,low.z,quarter.y,4.,reference);
