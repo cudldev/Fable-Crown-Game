@@ -1,12 +1,12 @@
 {
   "format": 1,
-  "version": "37837a26e2bc1b24",
-  "sourceVersion": "4d0cce553c455a15",
+  "version": "322dbf85ac6c08d0",
+  "sourceVersion": "2b5f1005f32b0be2",
   "pack": "meshes.bin",
   "encoding": "gzip",
-  "bytes": 7043742,
-  "decodedBytes": 63342564,
-  "packSha256": "5af9452264943fc4e44c15f8e50a5814e8a41b75adc430a09557caa3f9ad0b5b",
+  "bytes": 4409864,
+  "decodedBytes": 35052992,
+  "packSha256": "62d3bac9a51ffc962ae2104c0d3da9aefcc964fbaeb4f9f897fa2261ab3fc9f3",
   "assets": [
     {
       "id": "tree",
@@ -97,6 +97,70 @@
       ]
     },
     {
+      "id": "valley-cottage",
+      "size": [
+        96,
+        80,
+        58
+      ]
+    },
+    {
+      "id": "valley-cottage-cutaway",
+      "size": [
+        96,
+        80,
+        58
+      ]
+    },
+    {
+      "id": "valley-cottage-build",
+      "size": [
+        96,
+        80,
+        58
+      ]
+    },
+    {
+      "id": "valley-cottage-foundation",
+      "size": [
+        96,
+        80,
+        58
+      ]
+    },
+    {
+      "id": "valley-forge",
+      "size": [
+        64,
+        48,
+        50
+      ]
+    },
+    {
+      "id": "valley-forge-cutaway",
+      "size": [
+        64,
+        48,
+        50
+      ]
+    },
+    {
+      "id": "valley-forge-build",
+      "size": [
+        64,
+        48,
+        50
+      ]
+    },
+    {
+      "id": "valley-forge-foundation",
+      "size": [
+        64,
+        48,
+        50
+      ]
+    },
+    {
       "id": "valley-stool",
       "size": [
         10,
@@ -158,214 +222,6 @@
         16,
         16,
         22
-      ]
-    },
-    {
-      "id": "heartland-birch",
-      "size": [
-        32,
-        32,
-        44
-      ]
-    },
-    {
-      "id": "heartland-pine",
-      "size": [
-        32,
-        32,
-        44
-      ]
-    },
-    {
-      "id": "heartland-home",
-      "size": [
-        132,
-        108,
-        84
-      ]
-    },
-    {
-      "id": "heartland-home-cutaway",
-      "size": [
-        132,
-        108,
-        84
-      ]
-    },
-    {
-      "id": "heartland-home-foundation",
-      "size": [
-        132,
-        108,
-        84
-      ]
-    },
-    {
-      "id": "heartland-home-build",
-      "size": [
-        132,
-        108,
-        84
-      ]
-    },
-    {
-      "id": "heartland-cottage",
-      "size": [
-        104,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-cottage-cutaway",
-      "size": [
-        104,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-cottage-foundation",
-      "size": [
-        104,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-cottage-build",
-      "size": [
-        104,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-shop",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-shop-cutaway",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-shop-foundation",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-shop-build",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-bank",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-bank-cutaway",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-bank-foundation",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-bank-build",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-workshop",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-workshop-cutaway",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-workshop-foundation",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-workshop-build",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-forge",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-forge-cutaway",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-forge-foundation",
-      "size": [
-        88,
-        72,
-        84
-      ]
-    },
-    {
-      "id": "heartland-forge-build",
-      "size": [
-        88,
-        72,
-        84
       ]
     },
     {
